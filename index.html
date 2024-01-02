@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://formspree.io/f/mbjnrqle"
+      method="POST"
+        <h3 id="heading">ADMISSION ENQUIRY FORM</h3>
+        <input
+          type="text"
+          name="username"
+          id="name"
+          placeholder="Enter Your Full Name"
+          autocomplete="off"
+          required   
+        />
+          <!-- Dropdown menu -->
+          <label for="courses"><B>Select Your course :</B></label>
+          <select id="courses" name="courses">
+              <option value="B.Tech">B.Tech</option>
+              <option value="M.Tech">M.Tech</option>
+              <option value="MCA">MCA</option>
+              <option value="BCA">BCA</option>
+              <option value="MBBS">MBBS</option>
+              <option value="B.Sc">B.Sc</option>
+              <option value="B.Ed">B.Ed</option>
+          </select>
+          <label for="colleges"><B>Select Your college :</B></label>
+          <select id="colleges" name="colleges">
+              <option value="Sant Kabir Institute of Technology">Sant Kabir Institute of Technology</option>
+              <option value="Delhi Institute of Technology (DITM)">Delhi Institute of Technology (DITM)</option>
+              <option value="IITM Janakpuri">IITM Janakpuri</option>
+              <option value="Trinity Institute of Technology">Trinity Institute of Technology</option>
+              <option value="DDR College Gurugram">DDR College Gurugram</option>
+              <option value="Sushant University Gurugram">Sushant University Gurugram</option>
+              <option value="Kasturi Ram College">Kasturi Ram College</option>
+              <option value="MERI College Janakpuri">MERI College Janakpuri</option>
+              <option value="Banarsidas Chandiwala Dwarka">Banarsidas Chandiwala Dwarka</option>
+              <option value="FIMT Kapaseda">FIMT Kapaseda</option>
+              <option value="Dird College">Dird College</option>
+              <option value="NDIM College Okhala Area">NDIM College Okhala Area</option>
+              <option value="Sirifort Institute of Management Studies">Sirifort Institute of Management Studies</option>
+              <option value="Technia College">Technia College</option>
+              <option value="Geetaratan College">Geetaratan College</option>
+              <option value="BM Group of Institution">BM Group of Institution</option>
+              <option value="BMIT Group">BMIT Group</option>
+              <option value="South point group of Institution">South point group of Institution</option>
+              <option value="IITM Murthal College">IITM Murthal College</option>
+              <option value="Kamal Institute of Management Studies">Kamal Institute of Management Studies</option>
+              <option value="GNIT Greater Noida">GNIT Greater Noida</option>
+              <option value="Delhi Technical Campus">Delhi Technical Campus</option>
+              <option value="VIPS">VIPS</option>
+              <option value="MAIT">MAIT</option>
+              <option value="BPIT">BPIT</option>
+              <option value="Bhartiya Vidyapeeth">Bhartiya Vidyapeeth</option>
+              <option value="JIMS Basant kunj">JIMS Basant kunj</option>
+              <option value="JIMS Noida">JIMS Noida</option>
+              <option value="JIMS Rohini">JIMS Rohini</option>
+              <option value="Bhartiya vidya Bhawan">Bhartiya vidya Bhawan</option>
+              <option value="ST. Andrews Gurugram College">ST. Andrews Gurugram College</option>
+              <option value="WCTM Gurugram College">WCTM Gurugram College</option>
+              <option value="HMR College">HMR College</option>
+              <option value="Hindu College sonipat">Hindu College sonipat</option>
+              <option value="Gateway College Sonipat">Gateway College Sonipat</option>
+              <option value="BITA College sonipat">BITA College sonipat</option>
+              <option value="DPG College">DPG College</option>
+              <option value="SRM Sonipat">SRM Sonipat</option>
+          </select>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address (example@.com)"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="Enter Your Phone No."
+          autocomplete="off"
+          required
+        />
+        <textarea id="message" name="message" rows="3" placeholder="Leave Your message here" autocomplete="off" required min="5"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
